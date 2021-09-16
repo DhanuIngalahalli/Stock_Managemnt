@@ -1,12 +1,16 @@
 ﻿using System;
 
-namespace StockMgmt
+namespace Stock
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to stock management");
+            Stock stock = new Stock();//creating object
+            Console.WriteLine("Welcome to Stock Account Management!");
+            Console.WriteLine("\n");
+            stock.add();//calling add() from stock.cs
+
         }
     }
 }
